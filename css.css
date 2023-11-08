@@ -11,10 +11,37 @@ header{
     
 }
 
-ul{
+.main_menu{
     display: flex;
 }
 
-li{
-    
+nav li{
+    list-style-type: none;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+header{
+    padding: 20px;
+}
+
+nav ul li{
+    margin-right: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 1440px;
+}
+
+
